@@ -9,10 +9,12 @@ import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 
 public class FontServlet extends HttpServlet {
-    
+    //HashMap<String,Mapping> hmp;
+//GET    
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
           processRequest(req,res);
     }
+//POST    
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
            processRequest(request,response);
     }
